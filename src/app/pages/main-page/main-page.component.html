@@ -1,0 +1,16 @@
+<div class="container my-5">
+    <h1>Busqueda de Empleados</h1>
+    <hr>
+    <input type="text" class="form-control" placeholder="Gustavo Fring..." (input)="filter($event)">
+<div *ngIf="errors">
+    <div class="alert alert-danger" role="alert">
+        Se ha presentado un error con el servidor, intentelo mas tarde.
+      </div>
+</div>
+<div class="row">
+    <div *ngFor="let empleado of empleados" class="col-xl-4 col sm-6 col-xs-12">
+        <appcard [empleado]="empleado"></appcard>
+    </div>
+</div>
+
+</div>
