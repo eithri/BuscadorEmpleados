@@ -1,10 +1,7 @@
 # Buscador Empleados
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Iniciacion del proyecto
+Para iniciar el proyecto se ejecuta `ng serve --open` en la consola ubicada dentro de la carpeta raiz del proyecto, esto abrira una pestaña en el navegador con la direccion wwww.localhost:4200
 
 ## Code scaffolding
 
